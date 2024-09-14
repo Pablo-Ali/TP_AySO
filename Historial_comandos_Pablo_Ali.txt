@@ -1,0 +1,158 @@
+ps aux | grep tcpdump
+sudo kill 2595 2596 2597
+pwd
+ssh-keygen
+ls -la
+cat \$HOME/.ssh/*.pub
+cat $HOME/.ssh/*.pub
+ls -l
+cd repogit/
+ls -ls
+ls -la
+git clone git@github.com:Pablo-Ali/TP_AySO.git
+ls -l
+cd TP_AySO/
+ls -la
+pwd
+ls -l
+cat /etc/os-release 
+man grep
+cd
+pwd
+grep HOME_URL/etc/os-release
+grep /HOME/VAGRANT/etc/os-release
+ls -l
+cd .
+pwd
+cd ./
+pwd
+ls -la
+cd ../
+pwd
+ls -la
+cd ../
+pwd
+ls -la
+grep /etc//os-release 
+grep /etc/os-release 
+grep HOME_URL /etc/os-release 
+grep home_url /etc/os-release 
+grep -i home_url /etc/os-release 
+whoami
+cd
+ls
+cd repogit/
+ls
+ls -l
+cd TP_AySO/
+ls -l
+echo "Usuario=$(whoami)">datos_usuario.txt
+git status
+git add .
+git status
+git config --global user.email "PabloSharifAli@gmail.com"
+git config --global user.name "Pablo-Ali"
+git commit -m "ADD: agregadp 1er ejercicio sobre datos_usuarios.txt"
+git status
+grep -i "model name" /proc/
+grep -i "model name" /proc/cpuinfo 
+grep -i head -n1 "model name" /proc/cpuinfo 
+grep -i "model name" /proc/cpuinfo head -n1 
+grep -i "model name" /proc/cpuinfo tail -n1 
+grep -i "model name" tail -n1 /proc/cpuinfo 
+grep -i "model name" tail -n2 /proc/cpuinfo 
+grep -i "model name" head -n2 /proc/cpuinfo 
+grep "model name" /proc/cpuinfo 
+grep "model name" head -n1 /proc/cpuinfo 
+grep head -n1 "model name" /proc/cpuinfo 
+grep "model name" tail -n1 head -n1 /proc/cpuinfo 
+grep tail -n1 head -n1 "model name" /proc/cpuinfo 
+grep "model name" tail -n1 /proc/cpuinfo | >> datos_usuario.txt 
+echo grep "model name" tail -n1 /proc/cpuinfo | >> datos_usuario.txt 
+cat datos_usuario.txt 
+echo (grep "model name" tail -n1 /proc/cpuinfo) | >> datos_usuario.txt 
+echo "modelo cpu=$(grep "model name" tail -n1 /proc/cpuinfo)" | >> datos_usuario.txt 
+echo "modelo cpu=$(grep "model name" /proc/cpuinfo tail -n1)" | >> datos_usuario.txt 
+echo "modelo cpu=$(grep 'model name' /proc/cpuinfo tail -n1)" | >> datos_usuario.txt 
+echo "modelo cpu=$(grep tail -n1 'model name' /proc/cpuinfo)" | >> datos_usuario.txt 
+echo "modelo cpu=$(grep 'model name' /proc/cpuinfo tail -n1)" | >> datos_usuario.txt 
+grep 'model name' /proc/cpuinfo tail -n1 | >> datos_usuario.txt
+cat datos_usuario.txt 
+git status
+grep "model name" tail -n1 head -n1 /proc/cpuinfo 
+grep "model name" tail -n1 head -n1 /proc/cpuinfo | >> datos_usuario.txt 
+grep 'model name' /proc/cpuinfo tail -n1
+grep 'model name' /proc/cpuinfo tail -n1 | >> datos_usuario.txt 
+git status
+grep 'model name' /proc/cpuinfo tail -n1|>> datos_usuario.txt 
+cat datos_usuario.txt 
+grep 'model name' /proc/cpuinfo | tail -n1
+grep 'model name' /proc/cpuinfo | tail -n1 >> datos_usuario.txt 
+cat datos_usuario.txt 
+git status
+git add .
+git commit -m "feat: Añadiendo información de CPU"
+git status
+grep man
+man grep
+grep -v nologin /etc/passwd | head -n10
+grep -v nologin /etc/passwd 
+grep  nologin /etc/passwd 
+grep -v nologin /etc/passwd | head -n10
+sort man
+grep man
+man sort
+grep -v nologin /etc/passwd | head -n10
+grep -v nologin /etc/passwd | head -n10 | sort -k 7
+grep -v nologin /etc/passwd | head -n10 | sort -k 7 > lista_ordenada.txt
+ls -l
+cat lista_ordenada.txt 
+git status
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+sudo tcpdump -i eth0
+ip link show
+sudo tcpdump -i enp0s3
+ls -la
+echo "Comando=tcpdump" > comando_dump_net
+cat comando_dump_net 
+echo "Comando a ejecutar=sudo tcpdump -i enp0s3" >> comando_dump_net
+cat comando_dump_net 
+git add .
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+git status
+cat <<EOF >> README.md 
+Alumno: <Ali, Pablo Sharif>
+División: <313>
+Turno: <Noche>
+EOF
+
+cat README.md 
+cat <<EOF >> README.md 
+Alumno: <Ali, Pablo Sharif>
+División: <313>
+Turno: <Noche>
+EOF
+
+cat README.md 
+cat <<EOF >> README.md 
+Alumno: <Ali, Pablo Sharif>
+División: <313>
+Turno: <Noche>
+
+
+EOF
+
+cat <<EOF > README.md 
+#TP_AySO
+Alumno: <Ali, Pablo Sharif>
+División: <313>
+Turno: <Noche>
+EOF
+
+cat README.md 
+git status
+git add .
+git commit -m "docs: actualización de README con datos del alumno"
+git status
+history -a
